@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">CalculoIPVA</string>
+    <string name="valor_do_veiculo">Valor do Veiculo:</string>
+    <string name="tipo_de_veiculo">Tipo de Veiculo</string>
+    <string name="_1_veiculos_de_carga">1 - Veiculos de Carga (1,5%)</string>
+    <string name="_2_onibus_e_microonibus">2 - Onibus e Micro onibus (2,0%)</string>
+    <string name="_3_caminhonete">3 - Caminhonete (2,0%)</string>
+    <string name="_4_Motocicletas">4 - Motocicletas (2,0%)</string>
+    <string name="_5_alcool_gnv_eletricos">5 - Alcool, GNV ou Eletrico (3,0%)</string>
+    <string name="_6_nenhum_dos_acima">6 - Nenhum dos acima (4,0%)</string>
+    <string name="tipo">Tipo</string>
+    <string name="valor">Valor</string>
+    <string name="calular_ipva">Calular IPVA</string>
 </resources>
