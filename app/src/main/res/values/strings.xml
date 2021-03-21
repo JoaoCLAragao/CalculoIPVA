@@ -11,4 +11,6 @@
     <string name="tipo">Tipo</string>
     <string name="valor">Valor</string>
     <string name="calular_ipva">Calular IPVA</string>
+    <string name="ipva_a_ser_pago">IPVA a ser pago:</string>
+    <string name="voltar">Voltar</string>
 </resources>

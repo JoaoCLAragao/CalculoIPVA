@@ -78,6 +78,7 @@
         android:text="@string/_6_nenhum_dos_acima"/>
 
     <Button
+        android:id="@+id/btn_calularIPVA"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/calular_ipva"
