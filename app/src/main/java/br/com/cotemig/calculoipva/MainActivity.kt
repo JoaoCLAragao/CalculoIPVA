@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
         var valorVeiculo = e_txt_valor.toString().toDouble()
         var tipoVeiculo = e_txt_tipo.toString().toInt()
         var ipva : Double
-        var aliquota : Double
+        var aliquota = 0.0
 
         if (tipoVeiculo == 1){
             aliquota = 0.015
@@ -47,8 +47,11 @@ class MainActivity : AppCompatActivity() {
         }
         ipva = valorVeiculo * aliquota
 
-        var intent = Intent(this, ContactsContract.ProfileActivity::class.java)
-        intent.putExtra("ipva", VALORAQUIDISGRAÇA)
+        var intent = Intent(this, ResultadoIPVA::class.java)
+        intent.putExtra("ipva", ipva)
+        startActivity(intent)
+        finish()
+        
 
     }
 }
