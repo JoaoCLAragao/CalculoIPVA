@@ -22,8 +22,8 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun calularIPVA(){
-        var valorVeiculo = e_txt_valor.toString().toDouble()
-        var tipoVeiculo = e_txt_tipo.toString().toInt()
+        var valorVeiculo = e_txt_valor.text.toString().toDouble()
+        var tipoVeiculo = e_txt_tipo.text.toString().toInt()
         var ipva : Double
         var aliquota = 0.0
 
@@ -51,7 +51,7 @@ class MainActivity : AppCompatActivity() {
         intent.putExtra("ipva", ipva)
         startActivity(intent)
         finish()
-        
+
 
     }
 }
